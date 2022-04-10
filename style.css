@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   background: url(arkaplan.jpg) no-repeat;
+   height: 100vh;
+   background-size: 100% 100% ;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    background: url(logo.jpg) no-repeat;
+    height: 80px;
+    width: 80px;
+    background-size: 100% 100%;
+}
+
+.navbar .liste{
+float: right;
+margin-right: 20 px;
+}
+
+.navbar .liste li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    line-height: 60px;
+}
+
+.navbar .liste li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+
+.navbar .liste li a.active,
+.navbar .liste li a:hover{
+    color: white;
+    background: #5fafdd ;
+    border-radius: 2px;
+}
+
+.container .center-top{
+    color: #5fafdd;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%-50%);
+    font-family: Roboto;
+}
+.container .center-bottom{
+    color: #5fafdd;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    transform: translate(-50%-50%);
+    font-family: Roboto;
+}
+
+.container .center-top button{
+    background-color: #5fafdd;
+    margin-left: 150px; 
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: grab;
+    transition: .5s;
+}
+
+.container .center-top button.active,
+.container .center-top button:hover{
+    color: white;
+    background: #5fafdd ;
+    border-radius: 5px;
+}
+
+.container .center-bottom button{
+    background-color: #5fafdd;
+    margin-left: 130px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    cursor: grab;
+    transition: .5s;
+}
+
+.container .center-bottom button.active,
+.container .center-bottom button:hover{
+    color: white;
+    background: #5fafdd ;
+    border-radius: 5px;
+}
